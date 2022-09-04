@@ -106,8 +106,6 @@ $(function(){
 						// Remove Selection ***************************************
 						$(this).removeClass('selected');
 					}else{
-						// Show Record Modal Screen *******************************
-						$('#record').fadeIn().delay(2000).fadeOut();
 						// Start Recording ****************************************
 						sp.live();
 					}
