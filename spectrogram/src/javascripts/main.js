@@ -130,12 +130,6 @@ $(function(){
 			$('.music-box__buttons__button').removeClass('selected'); 
 		}
 
-		window.addEventListener('blur', function() {
-		   killSound();
-		});
-		document.addEventListener('visibilitychange', function(){
-		    killSound();
-		});
 
         var decodeBuffer = function(file) {
             // Credit: https://github.com/kylestetz/AudioDrop && https://ericbidelman.tumblr.com/post/13471195250/web-audio-api-how-to-playing-audio-based-on-user
